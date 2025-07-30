@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+
+}
+
+body {
+    background: linear-gradient(to top left, #cc33ff 0%, #660066 100%);
+}
+
+.Logo {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+
+}
+
+main {
+    width: 375px;
+    background: #f4f4f4;
+    border-radius: 20px;
+    margin: 0 auto 40px;
+    padding: 44px 24px 23px;
+    max-width: 100%;
+}
+
+label {
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+select,
+input {
+    background: #ffffff;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+    cursor: pointer;
+     
+}
+
+button {
+    background: #772fd3;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    height: 48px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 8px 8px 6px #1e1e1fe6;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    border: 1px solid #772fd3;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow {
+    margin: 15px 0;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency-value,.currency-value-to-convert {
+    color: #555555;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.currency {
+    color: #777777;
+    font-size: 14px;
+}
+
+ @media screen and (max-width:768px) {
+    
+   .Logo  {
+       width: 200px;
+       height:200px;
+       margin: 10px auto;
+    }
+     
+    main {
+        width:60%;
+        padding: 20px;
+    }
+
+
+    label{
+        font-size: 12px;
+    }
+
+    select,
+    input {
+        height: 30px;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    button{
+        height: 30px;
+        font-size: 14px;
+    }
+
+    section{
+         width: 100%;
+         padding: 10px;
+    }
+
+    .arrow{
+
+        width: 25px;
+        height: 25px;
+        margin: 10px auto;
+    }
+
+    .currency-box {
+        width: 1.60rem;
+        padding: 10px;
+    }
+
+   .currency-value,.currency-value-to-convert {
+       font-size:16px ;
+   }
+
+   .currency{
+    font-size: 12px;
+   }
+
+ }
+    @media screen and (max-width:480px) {
+      
+      
+    .Logo {
+        width: 150px !important; 
+        height: 150px !important;
+        
+     }
+       main{
+        width: 60%;
+        height: 60%;
+        padding: 10px;
+        margin: 0, 10px auto;
+         
+       }
+        
+
+    } 
